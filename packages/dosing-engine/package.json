@@ -1,0 +1,16 @@
+{
+  "name": "@warfarin/dosing-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Guideline-grounded warfarin dose adjustment engine (clinical decision support only).",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "warfarin-dosing-app",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/web"
+  ],
+  "scripts": {
+    "test:engine": "npm run test --workspace=@warfarin/dosing-engine",
+    "dev:web": "npm run dev --workspace=web"
+  }
+}
